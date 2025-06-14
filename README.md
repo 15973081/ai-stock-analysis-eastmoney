@@ -122,12 +122,11 @@ python ai_analysis.py # 调用 GPT 输出中文分析
 ```text
 .
 ├─ main.py              # 抓取+存储数据
-├─ 可视化模块.py       # 柱状图/玫瑰图生成
-├─ ai_analysis.py      # GPT 自然语言分析
-├─ config/
-│   └─ api_keys.json    # GPT/DeepSeek 密钥
+├─ chatgpt.py       # 调用gpt，同下deepseek
+├─ deepseek.py      # GPT 自然语言分析
 ├─ 东方财富_data.csv    # 抓取后行情数据
-├─ logs.txt            # 分析日志输出
+├─ b.txt            # 分析日志输出 logs
+├─ 图形可视化模块.py  #直观，更容易分析，柱状图/玫瑰图生成
 └─ README.md           # 项目说明文件
 ```
 
